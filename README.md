@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-# OCC CLUB
+# OCC CIS CLUB
 
 Simple overview of use/purpose.
 
@@ -52,9 +52,7 @@ command to run if program contains helper info
 ## Authors
 
 Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Lorenzo, Quen, Ousseynou, Brendan
 
 ## Version History
 
