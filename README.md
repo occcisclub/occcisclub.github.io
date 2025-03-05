@@ -54,7 +54,8 @@ Here are some ideas to get you started:
         <h1>Welcome to Our Shifty Website</h1>
     </header>
     <main>
-        <p>Ousseynou likes men site.</p>
+  
+    .</p>
     </main>
     <footer>
         <p>&copy; 2029 sigma sigma </p>
