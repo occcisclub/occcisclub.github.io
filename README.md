@@ -51,13 +51,13 @@ Here are some ideas to get you started:
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
+        <h1>Welcome to Our Shifty Website</h1>
     </header>
     <main>
-        <p>This is a simple HTML site.</p>
+        <p>Ousseynou likes men site.</p>
     </main>
     <footer>
-        <p>&copy; 2024 My Website</p>
+        <p>&copy; 2029 sigma sigma </p>
     </footer>
 </body>
 </html>
