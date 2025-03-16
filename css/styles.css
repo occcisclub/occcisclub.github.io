@@ -5,11 +5,7 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Header styling */
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
+header, footer {
     width: 100%;
     background-color: #2b4b2c; /* Green background */
     color: white;
@@ -19,6 +15,21 @@ header {
     justify-content: space-between; /* Space out the logo and nav */
     align-items: center;
     margin: 0;
+}
+
+/* Header styling */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure header is above the slideshow */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /*z-index: 1000; !* Ensure header is above the slideshow *!*/
 }
 
 /* Logo styling */
@@ -148,4 +159,13 @@ button.next {
 /* Hover effect for buttons */
 button:hover {
     background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*slide show images*/
+#announcements {
+    background-image: url('images/announcements-bg.jpg');
+}
+
+#mission {
+    background-image: url('images/mission-bg.jpg');
 }
