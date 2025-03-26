@@ -16,8 +16,6 @@
 header, footer {
     width: 100%;
     background: var(--primary-green);
-
-    /*background-color: #2b4b2c; !* Green background *!*/
     color: white;
     padding: 10px 0; /* Reduced the padding to make the header smaller */
     z-index: 1000; /* Ensure header is above the slideshow */
@@ -39,13 +37,6 @@ footer {
     position: fixed;
     bottom: 0;
     left: 0;
-    /*z-index: 1000; !* Ensure header is above the slideshow *!*/
-}
-
-/* Logo styling */
-header .logo {
-    font-size: 0.75rem; /* Reduced font size for a smaller logo */
-    margin-left: 20px;
 }
 
 /* Navigation bar styling */
