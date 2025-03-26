@@ -1,13 +1,23 @@
+:root {
+    --primary-green: #2E7D32;
+    --secondary-green: #388E3C;
+    --light-green: #00ff08;
+    --accent-green: #81C784;
+}
+
 /* Overall body and basic styles */
-body {
+* {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header, footer {
     width: 100%;
-    background-color: #2b4b2c; /* Green background */
+    background: var(--primary-green);
+
+    /*background-color: #2b4b2c; !* Green background *!*/
     color: white;
     padding: 10px 0; /* Reduced the padding to make the header smaller */
     z-index: 1000; /* Ensure header is above the slideshow */
@@ -98,10 +108,4 @@ header nav ul li a:hover {
 .nav-links a:hover {
     background-color: var(--secondary-green);
     transform: translateY(-2px);
-}
-
-/* Adjust header margin to account for fixed nav */
-.header {
-    margin-top: 60px;
-
 }
