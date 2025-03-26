@@ -1,255 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>    <style>
-        /* Previous CSS remains the same */
-        /* Add these new styles for navigation */
+<html lang = "en" >
+<head >
+    <meta charset = "UTF-8" >
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0" >
+    <title >JOIN US!</title >
+    <script src = "https://kit.fontawesome.com/your-kit-code.js" crossorigin = "anonymous" ></script >
+    <link rel = "stylesheet" href = "css" >
+</head >
 
-        .top-nav {
-            background-color: var(--primary-green);
-            padding: 15px 0;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
+<body >
 
-        .nav-links {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            list-style: none;
-        }
-
-        .nav-links a {
-            color: white;
-            text-decoration: none;
-            font-weight: 500;
-            transition: all 0.3s ease;
-            padding: 5px 10px;
-            border-radius: 4px;
-        }
-
-        .nav-links a:hover {
-            background-color: var(--secondary-green);
-            transform: translateY(-2px);
-        }
-
-        /* Adjust header margin to account for fixed nav */
-        .header {
-            margin-top: 60px;
-          
-        }
-    </style>
-</head>
-<body>
+<header >
     <!-- Add Navigation -->
-    <nav class="top-nav">
-        <ul class="nav-links container">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#events">calander</a></li>
-            <li><a href="#join">Join</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JOIN US!</title>
-    <style>
-        :root {
-            --primary-green: #2E7D32;
-            --secondary-green: #388E3C;
-            --light-green: #00ff08;
-            --accent-green: #81C784;
-        }
+    <nav class = "top-nav" >
+        <ul class = "nav-links container" >
+            <li ><a href = "#home" >Home</a ></li >
+            <li ><a href = "#about" >About</a ></li >
+            <li ><a href = "#events" >calander</a ></li >
+            <li ><a href = "#join" >Join</a ></li >
+            <li ><a href = "#contact" >Contact</a ></li >
+        </ul >
+    </nav >
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+    <div class = "container" >
+        <h1 >Join OCC CIS CLUB</h1 >
+        <p >FILLER</p >
+    </div >
+</header >
 
-        body {
-            background-color: #F1F8E9;
-        }
+<main class = "container" >
+    <section class = "join-form" >
+        <h2 class = "form-title" >JOIN NOW</h2 >
+        <form >
+            <div class = "form-group" >
+                <label ><span class = "required" >Name</span ></label >
+                <input type = "text" placeholder = "Your full name" required >
+            </div >
 
-        .header {
-            background: linear-gradient(rgba(46, 125, 50, 0.9), rgba(46, 125, 50, 0.8)),
-                        url('nature-bg.jpg');
-            background-size: cover;
-            color: white;
-            padding: 100px 20px;
-            text-align: center;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        }
+            <div class = "form-group" >
+                <label ><span class = "required" >Email</span ></label >
+                <input type = "email" placeholder = "FILLER" required >
+            </div >
 
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
+            <div class = "form-group" >
+                <label >CIS Intrest / plcace holder</label >
+                <input type = "text" placeholder = "e.g., It, code, hacking" >
+            </div >
 
-        .join-form {
-            background: white;
-            padding: 30px;
-            border-radius: 15px;
-            margin: -50px auto 40px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        }
+            <button type = "join discord" class = "btn" >JOiN OUR DISCORD</button >
+            <button type = "submit" class = "btn" >Submit Application</button >
+        </form >
+    </section >
 
-        .form-title {
-            color: var(--primary-green);
-            margin-bottom: 30px;
-            text-align: center;
-        }
+    <section class = "benefits-section" >
+        <h2 >Why Join OCC CULB?</h2 >
+        <div class = "benefit-card" >
+            <i class = "fas fa-seedling leaf-icon" ></i >
+            <h3 >learn sharpen ur skills</h3 >
+            <p >place holder</p >
+        </div >
+        <div class = "benefit-card" >
+            <i class = "fas fa-users leaf-icon" ></i >
+            <h3 >Make Friends</h3 >
+            <p >dont know if I like the cards just placeholder</p >
+        </div >
+        <div class = "benefit-card" >
+            <i class = "fas fa-certificate leaf-icon" ></i >
+            <h3 >Leadership Opportunities</h3 >
+            <p >Develop leadership skills through event organization and team projects</p >
+        </div >
+    </section >
+</main >
 
-        .form-group {
-            margin-bottom: 20px;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 8px;
-            color: var(--secondary-green);
-            font-weight: 500;
-        }
-
-        input, select, textarea {
-            width: 100%;
-            padding: 12px;
-            border: 2px solid var(--light-green);
-            border-radius: 8px;
-            font-size: 16px;
-        }
-
-        input:focus, select:focus, textarea:focus {
-            outline: none;
-            border-color: var(--accent-green);
-        }
-
-        .btn {
-            background: var(--primary-green);
-            color: rgb(21, 255, 0);
-            padding: 14px 28px;
-            border: none;
-            border-radius: 25px;
-            cursor: pointer;
-            font-size: 16px;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            width: 100%;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        .btn:hover {
-            background: var(--secondary-green);
-            transform: translateY(-2px);
-        }
-
-        .benefits-section {
-            text-align: center;
-            padding: 40px 20px;
-        }
-
-        .benefit-card {
-            background: white;
-            padding: 25px;
-            border-radius: 12px;
-            margin: 20px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-        }
-
-        .benefit-card h3 {
-            color: var(--primary-green);
-            margin: 15px 0;
-        }
-
-        .leaf-icon {
-            font-size: 40px;
-            color: var(--accent-green);
-        }
-
-        footer {
-            background: var(--primary-green);
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 50px;
-        }
-
-        .required::after {
-            content: "*";
-            color: #D32F2F;
-            margin-left: 3px;
-        }
-    </style>
-    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-
-        <div class="container">
-            <h1>Join OCC CIS CLUB</h1>
-            <p>FILLER</p>
-        </div>
-    </header>
-
-    <main class="container">
-        <section class="join-form">
-            <h2 class="form-title">JOIN NOW</h2>
-            <form>
-                <div class="form-group">
-                    <label><span class="required">Name</span></label>
-                    <input type="text" placeholder="Your full name" required>
-                </div>
-
-                <div class="form-group">
-                    <label><span class="required">Email</span></label>
-                    <input type="email" placeholder="FILLER" required>
-                </div>
-
-               
-                <div class="form-group">
-                    <label>CIS Intrest / plcace holder</label>
-                    <input type="text" placeholder="e.g., It, code, hacking">
-                </div>
-
-                <button type="join discord" class="btn">JOiN OUR DISCORD</button>
-                <button type="submit" class="btn">Submit Application</button>
-            </form>
-        </section>
-
-        <section class="benefits-section">
-            <h2>Why Join OCC CULB?</h2>
-            <div class="benefit-card">
-                <i class="fas fa-seedling leaf-icon"></i>
-                <h3>learn sharpen ur skills</h3>
-                <p>place holder</p>
-            </div>
-            <div class="benefit-card">
-                <i class="fas fa-users leaf-icon"></i>
-                <h3>Make Friends</h3>
-                <p>dont know if I like the cards just placeholder</p>
-            </div>
-            <div class="benefit-card">
-                <i class="fas fa-certificate leaf-icon"></i>
-                <h3>Leadership Opportunities</h3>
-                <p>Develop leadership skills through event organization and team projects</p>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p> Contact us:@ palce holder</p>
-        <div class="social-links">
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-        </div>
-        <p>&copy; OCC CIS Club. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+<footer >
+    <p > Contact us:@ palce holder</p >
+    <div class = "social-links" >
+        <a href = "#" ><i class = "fab fa-instagram" ></i ></a >
+        <a href = "#" ><i class = "fab fa-facebook" ></i ></a >
+        <a href = "#" ><i class = "fab fa-twitter" ></i ></a >
+    </div >
+    <p >&copy; OCC CIS Club. All rights reserved.</p >
+</footer >
+</body >
+</html >
