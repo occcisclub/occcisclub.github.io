@@ -1,0 +1,107 @@
+/* Overall body and basic styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    width: 100%;
+    background-color: #2b4b2c; /* Green background */
+    color: white;
+    padding: 10px 0; /* Reduced the padding to make the header smaller */
+    z-index: 1000; /* Ensure header is above the slideshow */
+    display: flex;
+    justify-content: space-between; /* Space out the logo and nav */
+    align-items: center;
+    margin: 0;
+}
+
+/* Header styling */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure header is above the slideshow */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /*z-index: 1000; !* Ensure header is above the slideshow *!*/
+}
+
+/* Logo styling */
+header .logo {
+    font-size: 0.75rem; /* Reduced font size for a smaller logo */
+    margin-left: 20px;
+}
+
+/* Navigation bar styling */
+header nav {
+    flex-grow: 1;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Align links in the center */
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem; /* Slightly smaller font size for links */
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+header nav ul li a:hover {
+    color: #f4a261; /* Accent color on hover */
+}
+
+/* Add these new styles for navigation */
+.top-nav {
+    background-color: var(--primary-green);
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.nav-links a:hover {
+    background-color: var(--secondary-green);
+    transform: translateY(-2px);
+}
+
+/* Adjust header margin to account for fixed nav */
+.header {
+    margin-top: 60px;
+
+}
