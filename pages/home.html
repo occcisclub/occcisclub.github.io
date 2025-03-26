@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/include.js"></script>
+</head>
+<body>
+
+<!--include header header-->
+<div w3-include-html="../header/header.html"></div>
+
+<main>
+<!-- Slideshow Section -->
+    <section class="slideshow-container">
+        <!-- Slide 1 -->
+        <div class="slide">
+            <img src="../images/first_meet.jpg" alt="first-meet"/>
+            <div class="slide-text">
+                <h1>Welcome to Our Club</h1>
+                <p>Join us and explore the world of CIS education and activities.</p>
+            </div>
+        </div>
+        
+        <!-- Slide 2 -->
+        <div class="slide">
+            <div class="slide-background" id="mission"></div>
+            <div class="slide-text">
+                <h1>MISSION</h1>
+                <p>We aim to provide a platform for college students to engage in CIS-related activities and events. Our club offers a range of opportunities for students to advance their skillsets in CIS topics. Whether you are a beginner or and experienced professional, our club welcomes you to be apart of our vibrant community dedicated to CIS education and exploration.</p>
+              </div>
+        </div>
+        
+        <!-- Slide 3 -->
+        <div class="slide">
+          <img src="../images/tech2.jpg" alt="tech"/>
+            <div class="slide-text">
+                <p>Our upcoming competition will be the Midwest Collegiate Computing Conference held on March 21, 2025. MCW3 is an event held in Grand Rapids that will have many different competitions surrounding technology, including Cybersecurity, Programming, AI, Data Analysis, Java, and etc. No experience necessary.</p>
+            </div>
+        </div>
+        
+        <!-- Slide 4 -->
+        <div class="slide">
+          <img src="../images/second_meet.png" alt="second_meet"/>
+            <div class="slide-text">
+                <p>Our most recent club meeting was held on February 28, 2025. We discussed the MWC3 competition, volunteers, and future events.</p>
+            </div>
+        </div>
+
+        <!-- Slide 5: Announcements -->
+        <div class="slide">
+            <div class="slide-background" id="announcements"></div>
+            <div class="slide-text">
+                <h1>Announcements</h1>
+                <p>Stay tuned for upcoming events and important club updates!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation buttons -->
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+
+    <script src="../js/slideshow_script.js"></script>
+</main>
+
+<!--include script here-->
+<script>
+    includeHTML();
+</script>
+
+<!--include footer here-->
+<div w3-include-html="../footer/footer.html"></div>
