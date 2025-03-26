@@ -68,104 +68,40 @@ header nav ul li a:hover {
     color: #f4a261; /* Accent color on hover */
 }
 
-/* Container for slideshow */
-.slideshow-container {
-    position: relative;
+/* Add these new styles for navigation */
+.top-nav {
+    background-color: var(--primary-green);
+    padding: 15px 0;
+    position: fixed;
     width: 100%;
-    height: 100vh;
-    margin-top: 80px; /* Offset the slideshow below the fixed header */
-    overflow: hidden;
-    margin-top: 0;
-}
-
-/* Each individual slide */
-.slide {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: none; /* Hide slides initially */
-    justify-content: center;
-    align-items: center;
-}
-
-/* Center text overlay for each slide */
-.slide-text {
-    position: absolute;
-    color: white;
-    text-align: center;
-    z-index: 2;
-    padding: 20px;
-    font-size: 2rem;
-    max-width: 80%;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-}
-
-/* Ensure images are full screen and cover the background */
-.slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensures the image covers the entire area without distortion */
-    position: absolute;
     top: 0;
-    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
-/* Background images for non-image slides */
-.slide-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    background-color: #69946e; /* New background color (e.g., teal) */
-}
-
-/* Show active slide */
-.slide.active {
-    display: flex;
-}
-
-/* Navigation buttons (arrows) */
-button.prev, button.next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    font-size: 2rem;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 10;
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
+.nav-links {
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 30px;
+    list-style: none;
 }
 
-/* Positioning of the buttons */
-button.prev {
-    left: 10px;
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    padding: 5px 10px;
+    border-radius: 4px;
 }
 
-button.next {
-    right: 10px;
+.nav-links a:hover {
+    background-color: var(--secondary-green);
+    transform: translateY(-2px);
 }
 
-/* Hover effect for buttons */
-button:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
+/* Adjust header margin to account for fixed nav */
+.header {
+    margin-top: 60px;
 
-/*slide show images*/
-#announcements {
-    background-image: url('images/announcements-bg.jpg');
-}
-
-#mission {
-    background-image: url('images/mission-bg.jpg');
 }
