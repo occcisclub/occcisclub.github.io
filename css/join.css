@@ -1,10 +1,10 @@
 @import url(styles.css);
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
+/*.container {*/
+/*    max-width: 800px;*/
+/*    margin: 0 auto;*/
+/*    padding: 20px;*/
+/*}*/
 
 .join-form {
     background: white;
@@ -54,7 +54,6 @@ input:focus, select:focus, textarea:focus {
     font-size: 16px;
     font-weight: 600;
     transition: all 0.3s ease;
-    width: 100%;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
