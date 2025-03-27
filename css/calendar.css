@@ -1,7 +1,7 @@
 :root {
     --primary-green: #2e7d32;
     --light-green: #81c784;
-    --dark-green: #000000;
+    --dark-green: #046A38;
     --background-green: #e8f5e9;
 }
 
@@ -37,7 +37,7 @@ table {
 }
 
 th {
-    color: var(--dark-green);
+    /*color: var(--dark-green);*/
     padding: 15px;
     font-weight: 600;
     border-bottom: 2px solid var(--light-green);

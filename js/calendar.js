@@ -63,4 +63,3 @@ function nextMonth() {
   }
   updateCalendar();
 }
-
