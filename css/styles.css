@@ -13,6 +13,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+main {
+    min-height: 100vh;
+}
+
 header, footer {
     display: flex;
     background: var(--primary-green);
