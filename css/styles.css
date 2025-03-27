@@ -14,85 +14,43 @@
 }
 
 header, footer {
-    width: 100%;
+    display: flex;
     background: var(--primary-green);
     color: white;
-    padding: 10px 0; /* Reduced the padding to make the header smaller */
-    z-index: 1000; /* Ensure header is above the slideshow */
-    display: flex;
-    justify-content: space-between; /* Space out the logo and nav */
-    align-items: center;
-    margin: 0;
-}
-
-/* Header styling */
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000; /* Ensure header is above the slideshow */
+    height: 60px; /* Ensure the header has a set height */
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-}
-
-/* Navigation bar styling */
-header nav {
-    flex-grow: 1;
-    text-align: center;
-}
-
-header nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: center; /* Align links in the center */
-    margin: 0;
-}
-
-header nav ul li {
-    margin: 0 10px;
-}
-
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem; /* Slightly smaller font size for links */
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+    align-items: center;
+    justify-content: space-around; /* Space out the logo and nav */
 }
 
 header nav ul li a:hover {
     color: #f4a261; /* Accent color on hover */
 }
 
-/* Add these new styles for navigation */
+/*Align nav links horizontally centered*/
 .top-nav {
-    background-color: var(--primary-green);
-    padding: 15px 0;
-    position: fixed;
+    display: flex;
+    justify-content: center;
     width: 100%;
-    top: 0;
-    z-index: 1000;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
+/*Align nav links vertically centered*/
 .nav-links {
     display: flex;
-    justify-content: center;
+    align-items: center;
     gap: 30px;
     list-style: none;
+    height: 100%;
 }
 
 .nav-links a {
     color: white;
     text-decoration: none;
-    font-weight: 500;
-    transition: all 0.3s ease;
-    padding: 5px 10px;
+    text-transform: uppercase;
+    padding: 10px;
     border-radius: 4px;
 }
 
