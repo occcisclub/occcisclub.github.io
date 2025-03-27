@@ -1,94 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Welcome to the OCC CIS Club!</title>
+<html lang = "en" >
+<head >
+    <meta charset = "UTF-8" >
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0" >
+    <title > Welcome to the OCC CIS Club!</title >
     <!-- REQUIRED BOOTSTRAP CSS. Loads before all custom css.-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-          crossorigin="anonymous">
+    <link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel = "stylesheet"
+          integrity = "sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin = "anonymous" >
     <!--  REQUIRED STYLES.CSS-->
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel = "stylesheet" href = "../css/styles.css" >
     <!--    Additional custom css files here-->
     <link rel = "stylesheet" href = "../css/slideshow.css" >
     <!-- REQUIRED SCRIPT for w3 html include-->
-    <script src="../js/include.js"></script>
-</head>
-<body>
+    <script src = "../js/include.js" ></script >
+</head >
+<body >
+<div class = "container" >
+    <div class = "row" >
+        <div class = "column" >
 
-<!--DO NOT REMOVE THE CODE BELOW! REQUIRED to import the header content: -->
-<div w3-include-html="../header/header.html"></div>
+            <!--DO NOT REMOVE THE CODE BELOW! REQUIRED to import the header content: -->
+            <div w3-include-html = "../header/header.html" ></div >
 
-<!--Main content for webpage-->
-<main>
-<!-- Slideshow Section -->
-    <section class="slideshow-container">
-        <!-- Slide 1 -->
-        <div class="slide">
-            <img src="../images/first_meet.jpg" alt="first-meet"/>
-            <div class="slide-text">
-                <h1>Welcome to Our Club</h1>
-                <p>Join us and explore the world of CIS education and activities.</p>
-            </div>
-        </div>
-        
-        <!-- Slide 2 -->
-        <div class="slide">
-            <div class="slide-background" id="mission"></div>
-            <div class="slide-text">
-                <h1>MISSION</h1>
-                <p>We aim to provide a platform for college students to engage in CIS-related activities and events. Our club offers a range of opportunities for students to advance their skillsets in CIS topics. Whether you are a beginner or and experienced professional, our club welcomes you to be apart of our vibrant community dedicated to CIS education and exploration.</p>
-              </div>
-        </div>
-        
-        <!-- Slide 3 -->
-        <div class="slide">
-          <img src="../images/tech2.jpg" alt="tech"/>
-            <div class="slide-text">
-                <p>Our upcoming competition will be the Midwest Collegiate Computing Conference held on March 21, 2025. MCW3 is an event held in Grand Rapids that will have many different competitions surrounding technology, including Cybersecurity, Programming, AI, Data Analysis, Java, and etc. No experience necessary.</p>
-            </div>
-        </div>
-        
-        <!-- Slide 4 -->
-        <div class="slide">
-          <img src="../images/second_meet.png" alt="second_meet"/>
-            <div class="slide-text">
-                <p>Our most recent club meeting was held on February 28, 2025. We discussed the MWC3 competition, volunteers, and future events.</p>
-            </div>
-        </div>
+            <!--Main content for webpage-->
 
-        <!-- Slide 5: Announcements -->
-        <div class="slide">
-            <div class="slide-background" id="announcements"></div>
-            <div class="slide-text">
-                <h1>Announcements</h1>
-                <p>Stay tuned for upcoming events and important club updates!</p>
-            </div>
-        </div>
-    </section>
+            <main >
+                <!-- Slideshow Section -->
+                <section class = "slideshow-container" >
+                    <!-- Slide 1 -->
+                    <div class = "slide" >
+                        <img src = "../images/first_meet.jpg" alt = "first-meet" />
+                        <div class = "slide-text" >
+                            <h1 >Welcome to Our Club</h1 >
+                            <p >Join us and explore the world of CIS education and activities.</p >
+                        </div >
+                    </div >
 
-    <!-- Navigation buttons -->
-    <button class="prev">&#10094;</button>
-    <button class="next">&#10095;</button>
-    <!-- Slideshow-->
-    <script src="../js/slideshow_script.js"></script>
-</main>
+                    <!-- Slide 2 -->
+                    <div class = "slide" >
+                        <div class = "slide-background" id = "mission" ></div >
+                        <div class = "slide-text" >
+                            <h1 >MISSION</h1 >
+                            <p >We aim to provide a platform for college students to engage in CIS-related activities
+                                and events. Our club offers a range of opportunities for students to advance their
+                                skillsets in CIS topics. Whether you are a beginner or and experienced professional, our
+                                club welcomes you to be apart of our vibrant community dedicated to CIS education and
+                                exploration.</p >
+                        </div >
+                    </div >
 
-<!--DO NOT REMOVE THE CODE BELOW! REQUIRED BOOTSTRAP script-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous">
-</script>
-<!--DO NOT REMOVE THE CODE BELOW! REQUIRED FONT AWESOME script-->
-<script src="https://kit.fontawesome.com/bde639ca14.js"
-        crossorigin="anonymous">
-</script>
-<!--DO NOT REMOVE THE CODE BELOW! REQUIRED script to import the footer content -->
-<script>
-    includeHTML();
-</script>
-<!--DO NOT REMOVE THE CODE BELOW! REQUIRED html to import the footer content-->
-<div w3-include-html="../footer/footer.html"></div>
+                    <!-- Slide 3 -->
+                    <div class = "slide" >
+                        <img src = "../images/tech2.jpg" alt = "tech" />
+                        <div class = "slide-text" >
+                            <p >Our upcoming competition will be the Midwest Collegiate Computing Conference held on
+                                March 21, 2025. MCW3 is an event held in Grand Rapids that will have many different
+                                competitions surrounding technology, including Cybersecurity, Programming, AI, Data
+                                Analysis, Java, and etc. No experience necessary.</p >
+                        </div >
+                    </div >
 
+                    <!-- Slide 4 -->
+                    <div class = "slide" >
+                        <img src = "../images/second_meet.png" alt = "second_meet" />
+                        <div class = "slide-text" >
+                            <p >Our most recent club meeting was held on February 28, 2025. We discussed the MWC3
+                                competition, volunteers, and future events.</p >
+                        </div >
+                    </div >
+
+                    <!-- Slide 5: Announcements -->
+                    <div class = "slide" >
+                        <div class = "slide-background" id = "announcements" ></div >
+                        <div class = "slide-text" >
+                            <h1 >Announcements</h1 >
+                            <p >Stay tuned for upcoming events and important club updates!</p >
+                        </div >
+                    </div >
+                </section >
+
+                <!-- Navigation buttons -->
+                <button class = "prev" >&#10094;</button >
+                <button class = "next" >&#10095;</button >
+                <!-- Slideshow-->
+                <script src = "../js/slideshow_script.js" ></script >
+            </main >
+
+        </div >
+
+        <!--DO NOT REMOVE THE CODE BELOW! REQUIRED BOOTSTRAP script-->
+        <script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity = "sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin = "anonymous" >
+        </script >
+        <!--DO NOT REMOVE THE CODE BELOW! REQUIRED FONT AWESOME script-->
+        <script src = "https://kit.fontawesome.com/bde639ca14.js"
+                crossorigin = "anonymous" >
+        </script >
+        <!--DO NOT REMOVE THE CODE BELOW! REQUIRED script to import the footer content -->
+        <script >
+            includeHTML();
+        </script >
+        <!--DO NOT REMOVE THE CODE BELOW! REQUIRED html to import the footer content-->
+        <div w3-include-html = "../footer/footer.html" ></div >
+
+    </div >
+</div >
+
+</body>
+</html>
