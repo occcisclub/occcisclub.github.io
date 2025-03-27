@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>occ calender</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel = "stylesheet" href = "css/calendar.css" >
+    <script src = "js/calendar.js" ></script >
+</head>
+<body>
+    <div class="calendar">
+        <div class="calendar-header">
+            <button onclick="previousMonth()">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <h2 id="month-year"></h2>
+            <button onclick="nextMonth()">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+            </thead>
+            <tbody id="calendar-body" class="calendar-body">
+            </tbody>
+        </table>
+        <div id="selected-date"></div>
+    </div>
+
+    <script>
+        // Initialize calendar
+        updateCalendar();
+    </script>
+</body>
+</html>
