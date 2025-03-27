@@ -7,6 +7,12 @@
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
+.form-items-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .form-title {
     color: var(--primary-green);
     margin-bottom: 30px;
@@ -40,7 +46,7 @@ input:focus, select:focus, textarea:focus {
 .btn {
     background: var(--primary-green);
     color: rgb(21, 255, 0);
-    /*padding: 14px 28px;*/
+    padding: 14px 28px;
     border: none;
     border-radius: 25px;
     cursor: pointer;
@@ -48,7 +54,6 @@ input:focus, select:focus, textarea:focus {
     font-weight: 600;
     transition: all 0.3s ease;
     text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 .btn:hover {
