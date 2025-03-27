@@ -1,0 +1,65 @@
+:root {
+    --primary-green: #2E7D32;
+    --secondary-green: #388E3C;
+    --light-green: #00ff08;
+    --accent-green: #81C784;
+}
+
+/* Overall body and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header, footer {
+    display: flex;
+    background: var(--primary-green);
+    color: white;
+    height: 60px; /* Ensure the header has a set height */
+}
+
+footer {
+    align-items: center;
+    justify-content: space-around; /* Space out the logo and nav */
+}
+
+header nav ul li a:hover {
+    color: #f4a261; /* Accent color on hover */
+}
+
+/*Align nav links horizontally centered*/
+.top-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/*Align nav links vertically centered*/
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    height: 100%;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.nav-links a:hover {
+    background-color: var(--secondary-green);
+    transform: translateY(-2px);
+}
+
+.social-links a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,91 @@
+@import url(styles.css);
+
+.join-form {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.form-items-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-title {
+    color: var(--primary-green);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--secondary-green);
+    font-weight: 500;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid var(--light-green);
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: var(--accent-green);
+}
+
+.btn {
+    background: var(--primary-green);
+    color: rgb(21, 255, 0);
+    padding: 14px 28px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background: var(--secondary-green);
+    transform: translateY(-2px);
+}
+
+.benefits-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.benefit-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.benefit-card h3 {
+    color: var(--primary-green);
+    margin: 15px 0;
+}
+
+.leaf-icon {
+    font-size: 40px;
+    color: var(--accent-green);
+}
+
+.required::after {
+    content: "*";
+    color: #D32F2F;
+    margin-left: 3px;
+}

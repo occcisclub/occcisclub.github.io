@@ -1,0 +1,101 @@
+/* Container for slideshow */
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-top: 80px; /* Offset the slideshow below the fixed header */
+    overflow: hidden;
+    margin-top: 0;
+}
+
+/* Each individual slide */
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none; /* Hide slides initially */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Center text overlay for each slide */
+.slide-text {
+    position: absolute;
+    color: white;
+    text-align: center;
+    z-index: 2;
+    padding: 20px;
+    font-size: 2rem;
+    max-width: 80%;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Ensure images are full screen and cover the background */
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Background images for non-image slides */
+.slide-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: #69946e; /* New background color (e.g., teal) */
+}
+
+/* Show active slide */
+.slide.active {
+    display: flex;
+}
+
+/* Navigation buttons (arrows) */
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 2rem;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Positioning of the buttons */
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*slide show images*/
+#announcements {
+    background-image: url('images/announcements-bg.jpg');
+}
+
+#mission {
+    background-image: url('images/mission-bg.jpg');
+}
