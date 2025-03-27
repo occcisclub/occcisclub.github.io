@@ -40,7 +40,7 @@ input:focus, select:focus, textarea:focus {
 .btn {
     background: var(--primary-green);
     color: rgb(21, 255, 0);
-    padding: 14px 28px;
+    /*padding: 14px 28px;*/
     border: none;
     border-radius: 25px;
     cursor: pointer;
